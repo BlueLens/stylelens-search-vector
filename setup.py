@@ -8,7 +8,7 @@
 from setuptools import setup, find_packages
 
 NAME = "stylelens-search-vector"
-VERSION = "1.0.3"
+VERSION = "1.0.10"
 # To install the library, run the following
 #
 # python setup.py install
@@ -16,7 +16,7 @@ VERSION = "1.0.3"
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
 
-REQUIRES = ["grpcio", "protobuf"]
+REQUIRES = ["numpy", "grpcio", "protobuf"]
 
 setup(
     name=NAME,
